@@ -35,8 +35,8 @@ function Hero() {
           </a>
 
           <a
-            href="/public/assets/CV_Iqbal Adrian.pdf"
-            download
+            href="/assets/CV_Iqbal_Adrian.pdf"
+            download="CV_Iqbal_Adrian.pdf"
             className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-lg shadow-lg transition transform hover:scale-105 hover:translate-y-[-2px]"
           >
             <FaDownload className="animate-bounce-slow" />
