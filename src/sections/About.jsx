@@ -29,7 +29,7 @@ function About() {
           <div className="relative">
             <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 rounded-xl">
               <img
-                src="/assets/Profile.jpeg"
+                src="/assets/foto2.jpg"
                 className="w-full h-full rounded-xl object-cover 
                            transition-transform duration-300 ease-in-out 
                            hover:scale-105 hover:rotate-1"

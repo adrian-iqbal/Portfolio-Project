@@ -40,7 +40,7 @@ function Contact() {
         data-aos-duration="1600"
       >
         <a
-          href="https://github.com/iqbaladrian"
+          href="https://github.com/adrian-iqbal"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition transform hover:scale-110"

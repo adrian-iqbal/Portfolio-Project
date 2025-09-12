@@ -6,21 +6,16 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaPhp,
-  FaJava,
-  FaPython,
   FaGitAlt,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
-  SiCplusplus,
   SiTypescript,
   SiTailwindcss,
-  SiPostgresql,
   SiBootstrap,
   SiVite,
   SiPostman,
   SiGithub,
-  SiGitlab,
 } from "react-icons/si";
 
 function MySkills() {
@@ -50,22 +45,15 @@ function MySkills() {
     // --- Backend ---
     { name: "Laravel", icon: <FaLaravel className="text-red-500 text-4xl" /> },
     { name: "PHP", icon: <FaPhp className="text-purple-500 text-4xl" /> },
-    { name: "Java", icon: <FaJava className="text-red-600 text-4xl" /> },
-    { name: "Python", icon: <FaPython className="text-yellow-300 text-4xl" /> },
-    { name: "C++", icon: <SiCplusplus className="text-blue-500 text-4xl" /> },
 
     // --- Database ---
     { name: "MySQL", icon: <FaDatabase className="text-blue-500 text-4xl" /> },
-    {
-      name: "PostgreSQL",
-      icon: <SiPostgresql className="text-sky-500 text-4xl" />,
-    },
 
     // --- Tools & DevOps ---
     { name: "Git", icon: <FaGitAlt className="text-orange-500 text-4xl" /> },
     { name: "GitHub", icon: <SiGithub className="text-gray-200 text-4xl" /> },
-    { name: "GitLab", icon: <SiGitlab className="text-orange-400 text-4xl" /> },
     { name: "Vite", icon: <SiVite className="text-purple-400 text-4xl" /> },
+
     {
       name: "Postman",
       icon: <SiPostman className="text-orange-500 text-4xl" />,
